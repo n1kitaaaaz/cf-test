@@ -14,7 +14,7 @@ window.InclinedWord = function(num, titles) {
   return titles[(num % 100 > 4 && num % 100 < 20) ? 2 : cases[(num % 10 < 5) ? num % 10 : 5]];
 }
 
-var Article = require('./components/Article.vue').default
+var Article = require('./components/article.vue').default
 
 Vue.use(VueRouter)
 

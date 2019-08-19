@@ -25,7 +25,7 @@ export default {
         }
     },
      created(){
-        // eslint-disable-next-line
+
        this.template = this.$route.params.props.res.f;
        this.titleArticle = this.$route.params.props.res.t;
     },
